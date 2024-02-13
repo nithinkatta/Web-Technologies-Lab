@@ -19,6 +19,10 @@
     text-decoration: none;
     color: black;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .main-div{
     display:flex;
 }
