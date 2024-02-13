@@ -31,3 +31,25 @@ textarea{
     max-height: 100px;
     min-width: 200px;
 }
+.catalogue{
+    border: 1px solid black;
+    width: 100%;
+}
+.catalogue table{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.cart{
+    border: 1px solid black;
+    width: 100%;
+}
+.cart table{
+    border: 1px solid black;
+    width: 100%;
+    height: 380px;
+}
+.cart tr{
+    padding: 30px;
+    text-align: center;
+}
