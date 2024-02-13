@@ -1,0 +1,33 @@
+*body{
+    
+}
+.nav-1{
+    display: flex;
+    background-color: rgb(132, 132, 221);
+}
+.nav-2{
+    display: flex;
+    height: 50px;
+    background-color: rgb(138, 153, 182);
+    margin-bottom: 5%;
+}
+.nav-2 div{
+    margin-left: 10%;
+    
+}
+.nav-2 div a{
+    text-decoration: none;
+    color: black;
+}
+.main-div{
+    display:flex;
+}
+.content{
+    border: 1px solid black;
+    height: 25rem;
+}
+textarea{
+    max-width: 200px;
+    max-height: 100px;
+    min-width: 200px;
+}
