@@ -6,29 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="login-page" style="display: flex; text-align: center; height: 100vh;">
-        <div style="flex:50%; text-align: center;">
-            <img width="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRirLNCbs4j_NKIf02OrlIFq-F8kFDUyJxmwQ&usqp=CAU" alt="">
+    <div class="login-page" style="display: flex; text-align: center;">
+        <div style="flex:50%; ">
+            <img height="400px" width="400px" src="https://assets-v2.lottiefiles.com/a/567e9d6a-116d-11ee-adcc-c362dfe23881/hrMdhw3flV.gif" alt="">
         </div>
-        <div style="flex:50%;">
-        <center>
+        <div style="flex:50%; margin-top: 20vh;">
+            <div style="text-align: left; ">
 
-            <h1>Login</h1>
-            <table>
-                <tr>
-                    <td>Name: </td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Password: </td>
-                    <td><input type="password"></td>
-                </tr>
-            </table>
-            
-            <button>Submit</button>
-            <button>Reset</button>
-        </center>
-        </div>
+                <!-- <center> -->
+                    <!-- <form action=""> -->
+                        <h1>Login</h1>
+                        <table>
+                            <tr>
+                            <td>Name: </td>
+                            <td><input type="text" id="name"></td>
+                        </tr>
+                        <tr >
+                            <td></td>
+                            <td>
+                                <label style="color: red; font-size: small;" for="name" id="name_s"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td><input type="password" id="pass"></td>
+                        </tr>
+                        <tr >
+                            <td></td>
+                            <td>
+                                <label style="color: red; font-size: small;" for="pass" id="pass_s"></label>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" onclick="fun()" class="submit">
+                    <!-- <button onclick="fun()">Submit</button> -->
+                    <!-- <button>Reset</button> -->
+                    <input type="button" onclick="reset_btn()" value="Reset">
+                    <!-- </form> -->
+                <!-- </center> -->
+            </div>
     </div>
+</div>
+<script src="Index.js"></script>
 </body>
 </html>

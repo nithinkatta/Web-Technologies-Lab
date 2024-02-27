@@ -73,5 +73,13 @@ textarea{
 .login-page{
     display:list-item;
     flex-direction:row;
-    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.main-div{
+    /* background-image: url(https://cdn.dribbble.com/users/997070/screenshots/3818748/145.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* opacity: 0.8; */
+
 }
